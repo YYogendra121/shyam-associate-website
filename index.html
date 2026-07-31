@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Aurelia Interiors — Luxury interior design, bespoke carpentry, modular kitchens, wardrobes, and premium renovation studio in Mumbai." />
+<meta name="keywords" content="interior design mumbai, luxury carpentry, modular kitchen, wardrobe, false ceiling, glass partition, office interior, home renovation" />
+<meta name="theme-color" content="#0a0908" />
+<title>Shyam Associate — Luxury Interior Design & Carpentry Studio, Mumbai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+
+<!-- NAVBAR -->
+<header class="nav" id="nav" data-testid="site-navbar">
+  <div class="nav__inner container">
+    <a href="/" class="brand" data-testid="brand-link">
+      <!-- <span class="brand__mark">SA</span> -->
+      <span class="brand__mark"><img  src="logo.jpeg" alt=""></span>
+      <span class="brand__name" style=" font-weight: 40px;" >Shyam<em>Associate</em></span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="/" class="active" data-testid="nav-home">Home</a>
+      <a href="/about.html" data-testid="nav-about">About</a>
+      <a href="/services.html" data-testid="nav-services">Services</a>
+      <a href="/portfolio.html" data-testid="nav-portfolio">Portfolio</a>
+      <a href="/projects.html" data-testid="nav-projects">Projects</a>
+      <a href="/testimonials.html" data-testid="nav-testimonials">Testimonials</a>
+      <a href="/faq.html" data-testid="nav-faq">FAQ</a>
+      <a href="/contact.html" data-testid="nav-contact">Contact</a>
+    </nav>
+    <a href="/contact.html" class="btn btn--gold nav__cta" data-testid="nav-cta">Book Consultation</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu" data-testid="nav-toggle">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" data-testid="hero-section">
+  <div class="hero__slider" id="heroSlider">
+   <div class="hero__slide" style="background-image:url('mainimg.jpeg')"></div>
+    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1920&q=80')"></div>
+    <div class="hero__slide" style="background-image:url('slider3img.jpeg')"></div>
+    <div class="hero__slide" style="background-image:url('slider4img.jpeg')"></div>
+    <div class="hero__slide" style="background-image:url('slider5img.jpeg')"></div>
+    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80')"></div>
+    <div class="hero__slide" style="background-image:url('https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1920&q=80')"></div>
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <span class="eyebrow" data-testid="hero-eyebrow"><i class="fa-solid fa-diamond"></i> Est. 2026· Mumbai</span>
+    <h1 class="hero__title" style="font-family: sans-serif; font-size: 5rem;">Shyam Associate <p><em style="font-size: 50px;">Consultancy & Solutions</em></p> </h1>
+    <p class="hero__sub">Professional Interior Design, Carpenter Work, Office Interiors, Glass Partitions, False Ceiling, Modular Furniture &amp; Renovation Solutions.</p>
+    <div class="hero__actions">
+      <a href="/contact.html" class="btn btn--gold" data-testid="hero-quote-btn">Get Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="/projects.html" class="btn btn--ghost" data-testid="hero-projects-btn">View Projects</a>
+    </div>
+    <div class="hero__dots" id="heroDots"></div>
+  </div>
+  <div class="hero__scroll"><span></span> Scroll</div>
+</section>
+
+<!-- INTRODUCTION -->
+<section class="intro section" data-testid="intro-section">
+  <div class="container grid-2">
+    <div class="reveal">
+      <span class="eyebrow"><i class="fa-solid fa-feather"></i> Our Studio</span>
+      <h2 class="h2">A studio devoted to <em>quiet luxury</em> and handcrafted detail.</h2>
+      <p class="lead">For over a years, Shyam Associate has designed and built residences, boutique offices, and hospitality spaces across Mumbai. Every millimetre is measured, every joinery hand-finished, every material curated.</p>
+      <p>We combine  design sensibility with the precision of master Indian carpentry — delivering interiors that feel timeless, tactile, and deeply personal.</p>
+      <a href="/about.html" class="link-gold" data-testid="intro-more">Read our story <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="intro__media reveal">
+      <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=80" alt="Luxury interior detail" loading="lazy" />
+      <div class="intro__badge">
+        <strong>10+</strong>
+        <span>Years of<br/>Craftsmanship</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why section section--dark" data-testid="why-section">
+  <div class="container">
+    <div class="section__head">
+      <span class="eyebrow eyebrow--light"><i class="fa-solid fa-star-of-life"></i> Why Choose Us</span>
+      <h2 class="h2 h2--light">Six reasons discerning clients <em>choose Shyam Associate</em>.</h2>
+    </div>
+    <div class="why__grid">
+      <div class="why__card glass reveal"><i class="fa-solid fa-gem"></i><h3>Premium Materials</h3><p>Sourced from  India's finest ateliers.</p></div>
+      <div class="why__card glass reveal"><i class="fa-solid fa-scale-balanced"></i><h3>Fair, Transparent Pricing</h3><p>Itemised quotations with no hidden charges — ever.</p></div>
+      <div class="why__card glass reveal"><i class="fa-solid fa-hammer"></i><h3>Master Craftsmen</h3><p>In-house carpenters averaging Many years of experience.</p></div>
+      <div class="why__card glass reveal"><i class="fa-solid fa-compass-drafting"></i><h3>Bespoke Modern Design</h3><p>Every project designed from scratch — never a template.</p></div>
+      <div class="why__card glass reveal"><i class="fa-solid fa-clock"></i><h3>On-Time Delivery</h3><p>Digital project tracking; 98% on-schedule handover rate.</p></div>
+      <div class="why__card glass reveal"><i class="fa-solid fa-award"></i><h3>Dedicated Support</h3><p> &amp; joinery warranty on all major installations.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats section" data-testid="stats-section">
+  <div class="container stats__grid">
+    <div class="stat reveal"><span class="stat__num" data-count="500">0</span><span class="stat__plus">+</span><p>Projects Completed</p></div>
+    <div class="stat reveal"><span class="stat__num" data-count="250">0</span><span class="stat__plus">+</span><p>Happy Clients</p></div>
+    <div class="stat reveal"><span class="stat__num" data-count="10">0</span><span class="stat__plus">+</span><p>Years Experience</p></div>
+    <div class="stat reveal"><span class="stat__num" data-count="42">0</span><span class="stat__plus"></span><p>Expert Craftsmen</p></div>
+  </div>
+</section>
+
+<!-- SERVICES PREVIEW -->
+<section class="section" data-testid="services-preview">
+  <div class="container">
+    <div class="section__head section__head--center">
+      <span class="eyebrow"><i class="fa-solid fa-layer-group"></i> What We Do</span>
+      <h2 class="h2">A complete studio for <em>every space</em>.</h2>
+      <p class="lead">From concept to handover — 17 disciplines, one signature.</p>
+    </div>
+    <div class="svc__grid">
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-couch"></i><h3>Interior Design</h3><p>Holistic residential &amp; commercial design.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-hammer"></i><h3>Carpenter Work</h3><p>Bespoke joinery, hand-finished on site.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-utensils"></i><h3>Modular Kitchen</h3><p>Italian hardware, marine-grade cabinetry.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-door-closed"></i><h3>Wardrobes</h3><p>Floor-to-ceiling walk-ins &amp; sliders.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-tv"></i><h3>TV &amp; Media Units</h3><p>Sculptural feature walls &amp; storage.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-window-restore"></i><h3>Glass Partitions</h3><p>Frameless, fluted, and acoustic systems.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-cloud"></i><h3>False Ceiling</h3><p>Cove, coffered, and acoustic ceilings.</p></a>
+      <a class="svc__card reveal" href="/services.html"><i class="fa-solid fa-building"></i><h3>Office Interior</h3><p>Corporate HQs &amp; boutique studios.</p></a>
+    </div>
+    <div class="center-cta"><a href="/services.html" class="btn btn--outline" data-testid="services-all">Explore all 17 services <i class="fa-solid fa-arrow-right"></i></a></div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="cta-strip" data-testid="cta-strip">
+  <div class="container cta-strip__inner">
+    <div>
+      <span class="eyebrow eyebrow--light"><i class="fa-solid fa-envelope-open-text"></i> Free On-Site Visit</span>
+      <h2 class="h2 h2--light">Ready to design something <em>extraordinary?</em></h2>
+    </div>
+    <a href="/contact.html" class="btn btn--gold btn--lg" data-testid="cta-strip-btn">Book a Consultation</a>
+  </div>
+</section>
+
+<div id="footer-mount"></div>
+
+<!-- FLOATING BUTTONS -->
+<div class="floaters">
+  <a href="https://wa.me/919999999999" class="floater floater--wa" title="WhatsApp" data-testid="float-whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="tel:+919999999999" class="floater floater--call" title="Call" data-testid="float-call"><i class="fa-solid fa-phone"></i></a>
+  <a href="mailto:studio@aurelia-interiors.com" class="floater floater--mail" title="Email" data-testid="float-email"><i class="fa-solid fa-envelope"></i></a>
+  <button class="floater floater--top" id="backToTop" title="Back to top" data-testid="float-top"><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

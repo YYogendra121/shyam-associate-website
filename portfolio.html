@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Portfolio — a curated gallery of luxury residences, offices, and hospitality interiors by Aurelia." />
+<title>Portfolio — Aurelia Interiors</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="portfolio">
+
+<header class="nav" id="nav">
+  <div class="nav__inner container">
+    <a href="/" class="brand" data-testid="brand-link">
+      <!-- <span class="brand__mark">SA</span> -->
+      <span class="brand__mark"><img  src="logo.jpeg" alt=""></span>
+      <span class="brand__name" style=" font-weight: 40px;" >Shyam<em>Associate</em></span>
+    </a> <nav class="nav__links" id="navLinks">
+      <a href="/">Home</a><a href="/about.html">About</a><a href="/services.html">Services</a>
+      <a href="/portfolio.html" class="active">Portfolio</a><a href="/projects.html">Projects</a>
+      <a href="/testimonials.html">Testimonials</a><a href="/faq.html">FAQ</a><a href="/contact.html">Contact</a>
+    </nav>
+    <a href="/contact.html" class="btn btn--gold nav__cta">Book Consultation</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container page-hero__inner">
+    <p class="crumbs"><a href="/">Home</a> &nbsp;/&nbsp; Portfolio</p>
+    <span class="eyebrow eyebrow--light"><i class="fa-solid fa-images"></i> Selected Works</span>
+    <h1 class="h1">A gallery of <em>finished spaces</em>.</h1>
+    <p class="lead" style="color:rgba(245,242,236,.75);">Hand-selected from over 500 completed projects — click any image for a closer look.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filter-bar" data-testid="filter-bar">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="living">Living</button>
+      <button data-filter="kitchen">Kitchen</button>
+      <button data-filter="bedroom">Bedroom</button>
+      <button data-filter="office">Office</button>
+      <button data-filter="dining">Dining</button>
+      <button data-filter="bathroom">Bathroom</button>
+    </div>
+
+    <div class="masonry" data-testid="masonry-grid">
+      <div class="masonry__item" data-cat="living"><img src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Living Room</span><h4>Serene Bandra Residence</h4></div></div>
+      <div class="masonry__item" data-cat="kitchen"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Modular Kitchen</span><h4>Powai Skyline Home</h4></div></div>
+      <div class="masonry__item" data-cat="bedroom"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Master Bedroom</span><h4>Colaba Sea View Suite</h4></div></div>
+      <div class="masonry__item" data-cat="office"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Boutique Office</span><h4>BKC Design Studio</h4></div></div>
+      <div class="masonry__item" data-cat="dining"><img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Dining</span><h4>Juhu Family Home</h4></div></div>
+      <div class="masonry__item" data-cat="living"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Living Room</span><h4>Worli Penthouse</h4></div></div>
+      <div class="masonry__item" data-cat="bathroom"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Bathroom</span><h4>Marble &amp; Brass Spa</h4></div></div>
+      <div class="masonry__item" data-cat="bedroom"><img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Bedroom</span><h4>Malabar Hill Retreat</h4></div></div>
+      <div class="masonry__item" data-cat="kitchen"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Kitchen</span><h4>Andheri Chef's Kitchen</h4></div></div>
+      <div class="masonry__item" data-cat="office"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Office</span><h4>Lower Parel Tech HQ</h4></div></div>
+      <div class="masonry__item" data-cat="living"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Living</span><h4>Khar Skyline Apartment</h4></div></div>
+      <div class="masonry__item" data-cat="dining"><img src="https://images.unsplash.com/photo-1616627547584-bf28cee262db?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Dining</span><h4>Bandra Row House</h4></div></div>
+      <div class="masonry__item" data-cat="bedroom"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Bedroom</span><h4>Prabhadevi Suite</h4></div></div>
+      <div class="masonry__item" data-cat="office"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Office</span><h4>Fort Heritage Chambers</h4></div></div>
+      <div class="masonry__item" data-cat="bathroom"><img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80" alt=""/><div class="masonry__caption"><span>Bathroom</span><h4>Powai Marble Ensuite</h4></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" data-testid="lightbox">
+  <button class="lightbox__close" data-testid="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+  <img src="" alt="" />
+</div>
+
+<section class="cta-strip">
+  <div class="container cta-strip__inner">
+    <div><span class="eyebrow eyebrow--light"><i class="fa-solid fa-envelope-open-text"></i> Your Turn</span><h2 class="h2 h2--light">Ready to build <em>yours?</em></h2></div>
+    <a href="/contact.html" class="btn btn--gold btn--lg">Start Your Project</a>
+  </div>
+</section>
+
+<div id="footer-mount"></div>
+
+<div class="floaters">
+  <a href="https://wa.me/919999999999" class="floater floater--wa" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="tel:+919999999999" class="floater floater--call"><i class="fa-solid fa-phone"></i></a>
+  <a href="mailto:studio@aurelia-interiors.com" class="floater floater--mail"><i class="fa-solid fa-envelope"></i></a>
+  <button class="floater floater--top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></button>
+</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
