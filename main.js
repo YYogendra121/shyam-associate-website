@@ -10,7 +10,7 @@
             <span class="brand__mark"><img  src="images/logo.jpeg" alt=""></span>
             <span class="brand__name">Shyam Associate<em>Consultancy</em></span>
           </a>
-          <p>A Mumbai-based studio crafting timeless interiors and bespoke furniture for discerning residences and boutique commercial spaces since 2014.</p>
+          <p>A Mumbai-based interior design and consultancy studio crafting timeless interiors, bespoke furniture, and thoughtfully designed spaces for residences and commercial environments.</p>
           <div class="socials">
             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
