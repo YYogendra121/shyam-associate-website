@@ -6,9 +6,9 @@
     <footer class="footer" data-testid="site-footer">
       <div class="container footer__grid">
         <div class="footer__brand">
-          <a href="/" class="brand">
-            <span class="brand__mark">SA</span>
-            <span class="brand__name">Shyam<em>Associate</em></span>
+          <a href="index.html" class="brand">
+            <span class="brand__mark">A</span>
+            <span class="brand__name">Aurelia<em>Interiors</em></span>
           </a>
           <p>A Mumbai-based studio crafting timeless interiors and bespoke furniture for discerning residences and boutique commercial spaces since 2014.</p>
           <div class="socials">
@@ -21,29 +21,29 @@
         <div>
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About Us</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a href="/projects.html">Projects</a></li>
-            <li><a href="/testimonials.html">Testimonials</a></li>
-            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="faq.html">FAQ</a></li>
           </ul>
         </div>
         <div>
           <h4>Services</h4>
           <ul>
-            <li><a href="/services.html">Interior Design</a></li>
-            <li><a href="/services.html">Modular Kitchen</a></li>
-            <li><a href="/services.html">Wardrobes</a></li>
-            <li><a href="/services.html">Office Interiors</a></li>
-            <li><a href="/services.html">False Ceiling</a></li>
-            <li><a href="/services.html">Renovation</a></li>
+            <li><a href="services.html">Interior Design</a></li>
+            <li><a href="services.html">Modular Kitchen</a></li>
+            <li><a href="services.html">Wardrobes</a></li>
+            <li><a href="services.html">Office Interiors</a></li>
+            <li><a href="services.html">False Ceiling</a></li>
+            <li><a href="services.html">Renovation</a></li>
           </ul>
         </div>
         <div>
           <h4>Get in Touch</h4>
-          <p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 9602731479</p>
-          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> studio@Shyam-Associates.com</p>
+          <p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 99999 99999</p>
+          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> studio@aurelia-interiors.com</p>
           <p><i class="fa-solid fa-location-dot" style="color:#c9a961;margin-right:.5rem"></i> 12 Linking Road, Bandra West,<br/>Mumbai 400050, India</p>
           <p><a href="https://maps.google.com/?q=Bandra+West+Mumbai" target="_blank" rel="noopener"><i class="fa-solid fa-map" style="color:#c9a961;margin-right:.5rem"></i> View on Google Maps</a></p>
         </div>
