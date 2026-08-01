@@ -7,8 +7,8 @@
       <div class="container footer__grid">
         <div class="footer__brand">
           <a href="index.html" class="brand">
-            <span class="brand__mark">A</span>
-            <span class="brand__name">Aurelia<em>Interiors</em></span>
+            <span class="brand__mark">S</span>
+            <span class="brand__name">Shyam Associate<em>Consultancy</em></span>
           </a>
           <p>A Mumbai-based studio crafting timeless interiors and bespoke furniture for discerning residences and boutique commercial spaces since 2014.</p>
           <div class="socials">
@@ -43,13 +43,13 @@
         <div>
           <h4>Get in Touch</h4>
           <p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 99999 99999</p>
-          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> studio@aurelia-interiors.com</p>
+          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> studio@shyamassociate.com</p>
           <p><i class="fa-solid fa-location-dot" style="color:#c9a961;margin-right:.5rem"></i> 12 Linking Road, Bandra West,<br/>Mumbai 400050, India</p>
           <p><a href="https://maps.google.com/?q=Bandra+West+Mumbai" target="_blank" rel="noopener"><i class="fa-solid fa-map" style="color:#c9a961;margin-right:.5rem"></i> View on Google Maps</a></p>
         </div>
       </div>
       <div class="footer__bottom">
-        © <span id="year"></span> Aurelia Interiors Pvt. Ltd. — All rights reserved. Crafted with care in Mumbai.
+        ©<span id="year"></span> Shyam Associate Consultancy & Solutions. All Rights Reserved.
       </div>
     </footer>`;
   const mount = document.getElementById('footer-mount');
