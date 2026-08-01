@@ -7,7 +7,7 @@
       <div class="container footer__grid">
         <div class="footer__brand">
           <a href="index.html" class="brand">
-            <span class="brand__mark">S</span>
+            <span class="brand__mark"><img  src="images/logo.jpeg" alt=""></span>
             <span class="brand__name">Shyam Associate<em>Consultancy</em></span>
           </a>
           <p>A Mumbai-based studio crafting timeless interiors and bespoke furniture for discerning residences and boutique commercial spaces since 2014.</p>
