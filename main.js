@@ -49,8 +49,21 @@
         </div>
       </div>
       <div class="footer__bottom">
-        ©<span id="year"></span> Shyam Associate Consultancy & Solutions. All Rights Reserved.
-      </div>
+  <span>
+    © <span id="year"></span> Shyam Associate Consultancy & Solutions. All Rights Reserved.
+  </span>
+
+  <span class="footer__developer">
+    Developed by
+    <a href="YOUR_LINKEDIN_1" target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin"></i> Yogendra
+    </a>
+    |
+    <a href="YOUR_LINKEDIN_2" target="_blank" rel="noopener">
+      <i class="fa-brands fa-linkedin"></i> Rohitash
+    </a>
+  </span>
+</div>
     </footer>`;
   const mount = document.getElementById('footer-mount');
   if(mount){ mount.outerHTML = footerHTML; }
