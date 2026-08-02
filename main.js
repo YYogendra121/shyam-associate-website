@@ -48,21 +48,22 @@
           <p><a href="https://maps.google.com/?q=Bandra+West+Mumbai" target="_blank" rel="noopener"><i class="fa-solid fa-map" style="color:#c9a961;margin-right:.5rem"></i> View on Google Maps</a></p>
         </div>
       </div>
-      <div class="footer__bottom">
-  <span>
-    © <span id="year"></span> Shyam Associate Consultancy & Solutions. All Rights Reserved.
-  </span>
+     <div class="footer__bottom">
+    
+    <div class="footer__left"></div>
 
-  <span class="footer__developer">
-    Developed by
-    <a href="YOUR_LINKEDIN_1" target="_blank" rel="noopener">
-      <i class="fa-brands fa-linkedin"></i> Yogendra
-    </a>
-    |
-    <a href="YOUR_LINKEDIN_2" target="_blank" rel="noopener">
-      <i class="fa-brands fa-linkedin"></i> Rohitash
-    </a>
-  </span>
+    <div class="footer__center">
+        © <span id="year"></span> Shyam Associate Consultancy & Solutions. All Rights Reserved.
+    </div>
+    <div class="footer__right">
+        Designed by
+        <a href="YOUR_LINKEDIN_1" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="YOUR_LINKEDIN_2" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
 </div>
     </footer>`;
   const mount = document.getElementById('footer-mount');
