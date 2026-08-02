@@ -57,13 +57,13 @@
     </div>
     <div class="footer__right">
         Designed by
-        <a href="https://www.linkedin.com/in/yogendra-singh-457b6b30a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">
+        <a href="YOUR_LINKEDIN_1" target="_blank" rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
-            Yogendra
+            <span>Yogendra</span>
         </a>
         <a href="https://www.linkedin.com/in/rohitash-singh-rathore-107a62320?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
-            Rohitash
+            <span>Rohitash</span>
         </a>
     </div>
 </div>
