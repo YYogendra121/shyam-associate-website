@@ -57,7 +57,7 @@
     </div>
     <div class="footer__right">
         Designed by
-        <a href="YOUR_LINKEDIN_1" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/yogendra-singh-457b6b30a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
             <span>Yogendra</span>
         </a>
