@@ -42,9 +42,10 @@
         </div>
         <div>
           <h4>Get in Touch</h4>
-          <p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 73650 28541</p>
-          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> shyamassociateco@gmail.com</p>
-          <p><i class="fa-solid fa-location-dot" style="color:#c9a961;margin-right:.5rem"></i> G-BLOCK EXTEN, NUTAN PALLY BENACHITY DURGAPUR, WARD NO.14<br>Pincode:Pincode 713213<br/>West Bengal, India</p>
+          <a href="https://wa.me/917365028541" target="_blank" rel="noopener"><p><i class="fa-brands fa-whatsapp" style="color:#c9a961;margin-right:.5rem"></i> +91 73650 28541</p></a>
+          <a href="tel:+917365028541"><p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 73650 28541</p></a>
+          <a href="mailto:shyamassociateco@gmail.com"><p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> shyamassociateco@gmail.com</p></a>
+          <a href="https://maps.google.com/?q=G-BLOCK+EXTEN%2C+NUTAN+PALLY+BENACHITY+DURGAPUR%2C+WARD+NO.14%2C+West+Bengal%2C+India%2C+Code:19" target="_blank" rel="noopener"><p><i class="fa-solid fa-location-dot" style="color:#c9a961;margin-right:.5rem"></i> G-BLOCK EXTEN, NUTAN PALLY BENACHITY DURGAPUR, WARD NO.14<br>Pincode 713213<br/>West Bengal, India</p></a>
           <p><a href="https://maps.google.com/?q=G-BLOCK+EXTEN%2C+NUTAN+PALLY+BENACHITY+DURGAPUR%2C+WARD+NO.14%2C+West+Bengal%2C+India%2C+Code:19" target="_blank" rel="noopener"><i class="fa-solid fa-map" style="color:#c9a961;margin-right:.5rem"></i> View on Google Maps</a></p>
         </div>
       </div>
