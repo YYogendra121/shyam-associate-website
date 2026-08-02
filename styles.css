@@ -544,28 +544,3 @@ body:not([data-page="home"]) .nav{ background:rgba(10,9,8,.9); backdrop-filter:b
   }
 }
 
-@media (max-width: 768px) {
-
-  .nav__links {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    width: 100%;
-    height: calc(100vh - 80px);
-    background: #0a0908;
-    transition: 0.3s;
-    z-index: 999;
-  }
-
-  .nav__links.open {
-    left: 0;
-  }
-
-  .page-hero,
-  .section,
-  .footer {
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-}
