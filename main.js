@@ -42,10 +42,10 @@
         </div>
         <div>
           <h4>Get in Touch</h4>
-          <p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 99999 99999</p>
-          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> studio@shyamassociate.com</p>
-          <p><i class="fa-solid fa-location-dot" style="color:#c9a961;margin-right:.5rem"></i> 12 Linking Road, Bandra West,<br/>Mumbai 400050, India</p>
-          <p><a href="https://maps.google.com/?q=Bandra+West+Mumbai" target="_blank" rel="noopener"><i class="fa-solid fa-map" style="color:#c9a961;margin-right:.5rem"></i> View on Google Maps</a></p>
+          <p><i class="fa-solid fa-phone" style="color:#c9a961;margin-right:.5rem"></i> +91 73650 28541</p>
+          <p><i class="fa-solid fa-envelope" style="color:#c9a961;margin-right:.5rem"></i> shyamassociateco@gmail.com</p>
+          <p><i class="fa-solid fa-location-dot" style="color:#c9a961;margin-right:.5rem"></i> G-BLOCK EXTEN, NUTAN PALLY BENACHITY DURGAPUR, WARD NO.14<br/>West Bengal, India, Code:19</p>
+          <p><a href="https://maps.google.com/?q=G-BLOCK+EXTEN%2C+NUTAN+PALLY+BENACHITY+DURGAPUR%2C+WARD+NO.14%2C+West+Bengal%2C+India%2C+Code:19" target="_blank" rel="noopener"><i class="fa-solid fa-map" style="color:#c9a961;margin-right:.5rem"></i> View on Google Maps</a></p>
         </div>
       </div>
      <div class="footer__bottom">
