@@ -59,9 +59,11 @@
         Designed by
         <a href="YOUR_LINKEDIN_1" target="_blank" rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
+            Yogendra Singh
         </a>
         <a href="YOUR_LINKEDIN_2" target="_blank" rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
+            Rohitash Singh Rathore
         </a>
     </div>
 </div>
