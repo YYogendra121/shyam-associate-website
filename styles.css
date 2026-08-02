@@ -567,5 +567,41 @@ body:not([data-page="home"]) .nav{ background:rgba(10,9,8,.9); backdrop-filter:b
         justify-content:center;
     }
 }
+/* Mobile Navbar */
+@media (max-width:768px){
 
+  .nav{
+    z-index:1000;
+  }
 
+  .nav__toggle{
+    display:flex;
+    z-index:1002;
+  }
+
+  .nav__links{
+    position:fixed;
+    top:72px;
+    right:-100%;
+    width:280px;
+    height:calc(100vh - 72px);
+    background:#0a0908;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:25px;
+    padding:40px 30px;
+    transition:.4s ease;
+    border-left:1px solid rgba(255,255,255,.08);
+    z-index:1001;
+  }
+
+  .nav__links.open{
+    right:0;
+  }
+
+  .nav__cta{
+    display:none;
+  }
+
+}
