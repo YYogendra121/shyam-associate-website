@@ -523,71 +523,32 @@ body:not([data-page="home"]) .nav{ background:rgba(10,9,8,.9); backdrop-filter:b
 .reveal.in{ opacity:1; transform:translateY(0); }
 
 /* ---------- Mobile ---------- */
-@media (max-width:1024px){
-  .nav__cta{ display:none; }
-  .nav__toggle{ display:flex; }
-  .nav__links{
-    position:fixed; inset:0; background:var(--onyx); padding:6rem 2rem 2rem;
-    flex-direction:column; align-items:flex-start; gap:1.4rem;
-    transform:translateX(100%); transition:transform .5s var(--ease); z-index:99;
-  }
-  .nav__links.open{ transform:translateX(0); }
-  .nav__links a{ font-size:1rem; }
-}
-@media (max-width: 768px) {
-  .hero__title {
-    font-size: 2.5rem !important;
-  }
+@media (max-width:768px){
 
-  .hero__sub {
-    font-size: 1rem;
-  }
-}
+    .footer__bottom{
+        flex-direction:column;
+        gap:12px;
+        text-align:center;
+    }
 
-.footer__bottom{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:18px 20px;
-    border-top:1px solid rgba(255,255,255,.1);
-}
+    .footer__left{
+        display:none;
+    }
 
-.footer__left,
-.footer__right{
-    flex:1;
-}
+    .footer__center,
+    .footer__right{
+        width:100%;
+        justify-content:center;
+    }
 
-.footer__center{
-    flex:1;
-    text-align:center;
-}
+    .footer__right{
+        flex-wrap:wrap;
+        gap:15px;
+    }
 
-.footer__right{
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-    gap:10px;
-}
-.footer__right a{
-    display:flex;
-    align-items:center;
-    gap:6px;
-    color:#ffffff;      /* White text */
-    text-decoration:none;
-    font-size:14px;
-    font-weight:500;
-}
-
-.footer__right a i{
-    color:#0A66C2;      /* LinkedIn icon blue */
-}
-
-.footer__right a:hover{
-    color:#ffffff;
-}
-
-.footer__right a:hover i{
-    color:#4da3ff;      /* Icon hover color */
+    .footer__right a{
+        font-size:13px;
+    }
 }
 
 @media (max-width:768px){
@@ -606,3 +567,5 @@ body:not([data-page="home"]) .nav{ background:rgba(10,9,8,.9); backdrop-filter:b
         justify-content:center;
     }
 }
+
+
